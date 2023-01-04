@@ -6,6 +6,10 @@ Making springshare tickets via the API using Python
 ### For Everyone
 * Acquire a API credentials via the springshare web interface.
   * https://YOUR_LIB_ANSWERS_URL/admin/widgets/api/clients
+    1. Under the API Authentication tab, click the "Add New Application" button.
+    2. Provide a name and description at your discretion, they will not actually be used in the code.
+    3. Check the "Create Access" checkbox at a minimum. We won't use View or Udpate in what we cover, so if you want the minimum go with create only.
+    4. Make a note of the Client ID and Client Secret. You will need to put the secret in a text file named ".api_info" and Client ID will be used in directly in the code.
 
 ### For those new to python
 
